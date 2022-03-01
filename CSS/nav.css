@@ -1,0 +1,29 @@
+.navbar-toggler{
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-right: 20px!important;
+  }
+  .navbar-light{
+    background-color: transparent!important;
+  }
+  .navbar-brand{
+      padding-left: 20px;
+      font-size: 2.5rem;
+  }
+  .offcanvas{
+      background-color: #06BFFF;
+  }
+@media screen and (max-width:480px) {
+    
+
+  .navbar-toggler:active{
+    border: 1px solid gray!important;
+  }
+  .navbar-light{
+    background-color: transparent!important;
+  }
+  .bg-light{
+  
+    background-color: rgb(211, 211, 211);
+  }
+
+}

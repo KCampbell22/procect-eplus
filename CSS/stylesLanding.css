@@ -1,0 +1,235 @@
+@font-face {
+  font-family:'Poppins' ;
+  src: url(/Endurence+/Poppins/Poppins-Black.ttf);
+  src: url(/Endurence+/Poppins/Poppins-Bold.ttf);
+  src: url(/Endurence+/Poppins/Poppins-ExtraBold.ttf);
+  src: url(/Endurence+/Poppins/Poppins-ExtraLight.ttf);
+  src: url(/Endurence+/Poppins/Poppins-Italic.ttf);
+  src: url(/Endurence+/Poppins/Poppins-Light.ttf);
+  src: url(/Endurence+/Poppins/Poppins-Medium.ttf);
+  src: url(/Endurence+/Poppins/Poppins-Regular.ttf);
+  src: url(/Endurence+/Poppins/Poppins-SemiBold.ttf);
+  src: url(/Endurence+/Poppins/Poppins-Thin.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+html{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 100%;
+}
+.container-fluid{
+  padding: 0;
+}
+#product-text{
+  color: white;
+
+}
+#banner-header, #product-list{
+  mix-blend-mode: hard-light;
+}
+#bg-wrapper{
+  background-color: rgba(128, 128, 128, 0.2);
+  position: absolute;
+  display: flex;
+  width: 100%;
+}
+
+#banner{
+  background-color: #1C76FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2311a5ff'/%3E%3Cstop offset='1' stop-color='%2311a5ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%230e9aff'/%3E%3Cstop offset='1' stop-color='%230e9aff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2303c9ff'/%3E%3Cstop offset='1' stop-color='%2303c9ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231C76FF'/%3E%3Cstop offset='1' stop-color='%231C76FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2306D4FF'/%3E%3Cstop offset='1' stop-color='%2306D4FF' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2300BEFF'/%3E%3Cstop offset='1' stop-color='%2300BEFF' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+border-bottom: 5px solid white;
+height: 45rem;
+}
+h2{
+  padding: 15px;
+}
+
+html{
+  background-color: rgb(231, 231, 231);
+}
+hr{
+  margin: 0;
+}
+#product-text{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#login-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+#login{
+  width: 500px;
+}
+#app-store{
+  width: 325px;
+}
+#product-list{
+  font-size: 1.5rem;
+  padding: 2rem 0;
+}
+#many-users{
+  background-color: rgba(128, 128, 128, 0.2)!important;
+  padding: 2.5rem;
+}
+#download{
+  width: 200px;
+
+}
+
+
+@media  screen and (max-width: 1024px) {
+  #banner{
+    height: 40rem;
+  }
+  #login{
+    width: 400px;
+  }
+  #product-list{
+    font-size: 1.3rem;
+    list-style:none;
+    margin-bottom: 2rem;
+  }
+  #product-list li::before{
+    content: " - ";
+    font-family: "Indie Flower";
+  font-size: 1.25em;
+  line-height: 0.75;
+  width: 1rem;
+  padding-top: 0.25rem;
+  text-align: center;
+  
+  border-radius: 0.25em;
+  }
+  #many-users{
+    padding: 20px;
+  }
+  
+}
+@media screen and (max-width: 850px) {
+  #banner{
+    height: 30rem;
+  }
+  #login{
+  filter: drop-shadow(5px 15px 5px rgba(0, 0, 0, .5));
+  width: 400px !important; 
+  height: auto !important;
+  }
+  #many-users{
+    background-color: rgba(128, 128, 128, 0.2)!important;
+  padding: 15px;
+  
+  }
+  #product-text{
+    padding: 20px;
+    margin-top: 4rem;
+    
+  }
+  #login-img{
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    
+    padding: 20px;
+  }
+  #product-list{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  
+h2{
+  font-size: .8rem; 
+  padding: 10px;
+
+}
+html{
+  background-color: rgb(231, 231, 231);
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-fluid{
+  padding: 0;
+}
+#login{
+  width: 150px;
+}
+#banner-header{
+  width: 45vw!important;
+}
+#login-img{
+  width: 40vw;
+}
+#app-store{
+  width: 150px!important;
+}
+
+#many-users{
+padding: 10px;
+
+}
+
+
+#product-text{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  
+}
+#banner{
+  height: 25rem;
+}
+#banner-header{
+  font-size: 1rem!important;
+  color: rgb(228, 227, 227);
+  padding: 40px 15px;
+mix-blend-mode: hard-light;
+line-height: 1.2rem;
+letter-spacing: .25px;
+}
+#product-list{
+  display: none;
+}
+
+
+.bg-light{
+
+  background-color: rgb(211, 211, 211);
+}
+
+#login{
+  filter: drop-shadow(5px 15px 5px rgba(0, 0, 0, .5));
+  width: 200px !important; 
+  height: auto !important;
+}
+
+#login-img{
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+}
