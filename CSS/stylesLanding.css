@@ -14,6 +14,9 @@
 * {
   box-sizing: border-box;
 }
+h2{
+  font-size: 1.5rem !important;
+}
 html{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 900;
@@ -79,7 +82,7 @@ hr{
 }
 #many-users{
   background-color: rgba(128, 128, 128, 0.2)!important;
-  padding: 2.5rem;
+  padding: 20px;
 }
 #download{
   width: 200px;
